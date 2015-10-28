@@ -119,6 +119,28 @@ namespace PotterShopTestProject
             //assert
             Assert.AreEqual(expected, actual);
         }
+        
+        [TestMethod]
+        public void 一二集各買了一本_第三集買了兩本_價格應為370()
+        {
+            //arrange
+            var target = new Calculate();
+            var list = new List<Book>()
+            {
+             new Book { id=1,  Type = type.第一集 },
+             new Book { id=2,  Type = type.第二集 },
+             new Book { id=4,  Type = type.第三集 },
+             new Book { id=5,  Type = type.第三集 }
+            };
+            var expected = 370;
+
+            //act
+            var actual = target.Sum(list);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+
 
         [TestMethod]
         public void 第一集買了一本_第二三集各買了兩本_價格應為460()
