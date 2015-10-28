@@ -8,9 +8,7 @@ namespace PotterShopLibrary
     public class Book
     {
         public int id { get; set; }
-
-        public int Price { get; set; }
-
+        
         public type Type { get; set; }
     }
 
