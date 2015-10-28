@@ -27,7 +27,7 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 }
+             new Book { Type = type.第一集 }
             };
             var expected = 100;
 
@@ -45,8 +45,8 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 },
-             new Book { id=2,  Type = type.第二集 }
+             new Book { Type = type.第一集 },
+             new Book { Type = type.第二集 }
             };
             var expected = 190;
 
@@ -64,9 +64,9 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 },
-             new Book { id=2,  Type = type.第二集 },
-             new Book { id=3,  Type = type.第三集 }
+             new Book { Type = type.第一集 },
+             new Book { Type = type.第二集 },
+             new Book { Type = type.第三集 }
             };
             var expected = 270;
 
@@ -84,10 +84,10 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 },
-             new Book { id=2,  Type = type.第二集 },
-             new Book { id=3,  Type = type.第三集 },
-             new Book { id=3,  Type = type.第四集 }
+             new Book { Type = type.第一集 },
+             new Book { Type = type.第二集 },
+             new Book { Type = type.第三集 },
+             new Book { Type = type.第四集 }
             };
             var expected = 320;
 
@@ -105,11 +105,11 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 },
-             new Book { id=2,  Type = type.第二集 },
-             new Book { id=3,  Type = type.第三集 },
-             new Book { id=4,  Type = type.第四集 },
-             new Book { id=5,  Type = type.第五集 }
+             new Book {  Type = type.第一集 },
+             new Book {  Type = type.第二集 },
+             new Book {  Type = type.第三集 },
+             new Book {  Type = type.第四集 },
+             new Book {  Type = type.第五集 }
             };
             var expected = 375;
 
@@ -127,10 +127,10 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 },
-             new Book { id=2,  Type = type.第二集 },
-             new Book { id=4,  Type = type.第三集 },
-             new Book { id=5,  Type = type.第三集 }
+             new Book { Type = type.第一集 },
+             new Book { Type = type.第二集 },
+             new Book { Type = type.第三集 },
+             new Book { Type = type.第三集 }
             };
             var expected = 370;
 
@@ -149,11 +149,11 @@ namespace PotterShopTestProject
             var target = new Calculate();
             var list = new List<Book>()
             {
-             new Book { id=1,  Type = type.第一集 },
-             new Book { id=2,  Type = type.第二集 },
-             new Book { id=3,  Type = type.第二集 },
-             new Book { id=4,  Type = type.第三集 },
-             new Book { id=5,  Type = type.第三集 }
+             new Book { Type = type.第一集 },
+             new Book { Type = type.第二集 },
+             new Book { Type = type.第二集 },
+             new Book { Type = type.第三集 },
+             new Book { Type = type.第三集 }
             };
             var expected = 460;
 
