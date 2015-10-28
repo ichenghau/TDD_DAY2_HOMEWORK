@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PotterShopTestProject", "PotterShopTestProject\PotterShopTestProject.csproj", "{232F1B70-6EA0-4D62-A04E-EA99250FF95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PotterShopLibrary", "PotterShopLibrary\PotterShopLibrary.csproj", "{21787EA2-8888-4EEA-9F4E-9CF36880E253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232F1B70-6EA0-4D62-A04E-EA99250FF95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232F1B70-6EA0-4D62-A04E-EA99250FF95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232F1B70-6EA0-4D62-A04E-EA99250FF95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232F1B70-6EA0-4D62-A04E-EA99250FF95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21787EA2-8888-4EEA-9F4E-9CF36880E253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21787EA2-8888-4EEA-9F4E-9CF36880E253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21787EA2-8888-4EEA-9F4E-9CF36880E253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21787EA2-8888-4EEA-9F4E-9CF36880E253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
