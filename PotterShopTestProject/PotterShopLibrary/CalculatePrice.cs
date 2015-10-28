@@ -7,19 +7,21 @@ namespace PotterShopLibrary
 {
     public class Calculate: ICalculatePrice
     {
+        const int 書的價錢 = 100;
+
         public double Sum(List<Book> shops)
         {
             double sum = 0;
 
             while (shops.Any())
             {
-                sum += 計算一個集合的總和(ref shops);
+                sum += 計算一個群組的總和(ref shops);
             }
 
             return sum;
         }
 
-        private double 計算一個集合的總和(ref List<Book> shops)
+        private double 計算一個群組的總和(ref List<Book> shops)
         {
             int count = 0;
 
@@ -58,30 +60,32 @@ namespace PotterShopLibrary
                 shops.Remove(第五集);
             }
 
-            return 計算群組總和搭配總和(count);
+            return 計算群組搭配總和(count);
         }
-
-        private double 計算群組總和搭配總和(int count)
+        
+        private double 計算群組搭配總和(int count)
         {
+            int 群組未計算折扣的價錢 = count * 書的價錢;
+
             switch (count)
             {
                 case 1:
-                    return count * 100 * 1;
+                    return 群組未計算折扣的價錢 * 1;
 
                 case 2:
-                    return count * 100 * 0.95;
+                    return 群組未計算折扣的價錢 * 0.95;
 
                 case 3:
-                    return count * 100 * 0.90;
+                    return 群組未計算折扣的價錢 * 0.90;
 
                 case 4:
-                    return count * 100 * 0.80;
+                    return 群組未計算折扣的價錢 * 0.80;
 
                 case 5:
-                    return count * 100 * 0.75;
+                    return 群組未計算折扣的價錢 * 0.75;
 
                 default:
-                    return count * 100;
+                    return 群組未計算折扣的價錢;
             }
         }
     }
