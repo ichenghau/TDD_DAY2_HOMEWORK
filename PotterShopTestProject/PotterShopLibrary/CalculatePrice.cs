@@ -69,10 +69,10 @@ namespace PotterShopLibrary
                     return count * 100 * 1;
 
                 case 2:
-                    return count * 100 * 0.90;
+                    return count * 100 * 0.95;
 
                 case 3:
-                    return count * 100 * 0.85;
+                    return count * 100 * 0.90;
 
                 case 4:
                     return count * 100 * 0.80;
